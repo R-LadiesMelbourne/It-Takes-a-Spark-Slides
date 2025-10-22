@@ -3,7 +3,9 @@ format:
   revealjs:
     logo: presentation/logo.png
     code-overflow: wrap
-    fontsize: 0.9em
+    # fontsize: 0.9em
+    fontsize: 34px
+    code-font-size: 18px
     incremental: true  
     css: [presentation/theme/theme.css]
 editor: visual
@@ -316,13 +318,24 @@ a_number <- 137
 another_number <- 120
 
 a_number * another_number
+```
 
+. . .
+
+```{r assign4}
+#| echo: true
+#| output-location: fragment
 a_number / another_number
+```
 
+. . .
+
+```{r assign5}
+#| echo: true
+#| output-location: fragment
 (2*a_number) + another_number
 ```
 
-\
 . . .
 
 Try saving a number or a word to a meaningful name - can you see where it goes?
@@ -416,11 +429,11 @@ mpg %>%
 
 ```
 
-```{r simple_scatter}
+<!-- ```{r simple_scatter} -->
 
-scatterplot(mpg, x = displ, y = cty, fill_col = "violet", title = "My scatterplot")
+<!-- scatterplot(mpg, x = displ, y = cty, fill_col = "violet", title = "My scatterplot") -->
 
-```
+<!-- ``` -->
 
 [Notice both the x and the y-axis are things we can count or measure.]{style="font-size:30px;padding: 5px"}
 :::
@@ -438,11 +451,11 @@ mpg %>%
 
 ```
 
-```{r simple_boxplot}
+<!-- ```{r simple_boxplot} -->
 
-boxplot(mpg, x = class, y = cty, fill_col = "gold", title = "My boxplot")
+<!-- boxplot(mpg, x = class, y = cty, fill_col = "gold", title = "My boxplot") -->
 
-```
+<!-- ``` -->
 
 [Notice the y-axis are things we count or measure but the x-axis are specific groups.]{style="font-size:30px;padding: 5px"}
 :::
@@ -534,9 +547,20 @@ Can you change size, shape and colour...what kinds of plots can you make ?
   
 ```
 
-```{r simplescatter}
+## Let's [customise !]{.purple}
 
-scatterplot(outbreak_data, x = class, y = temperature, fill_col = "violet", title = "My scatterplot")
+If you're feeling stuck, try this: 
+
+```{r simplescatter}
+#| echo: true
+#| output-location: fragment
+#| out.width: "65%"
+#| fig.align: "center"
+
+scatterplot(outbreak_data, 
+            x = class, y = temperature, 
+            fill_col = "violet", 
+            title = "My scatterplot")
 ```
 
 ## Can you make a **boxplot** with **class** on the x-axis and **temperature** on the y-axis {data-menu-title="challenge 1" background-color="#935d94" style="font-size:70px;padding: 5px "}
@@ -554,9 +578,20 @@ scatterplot(outbreak_data, x = class, y = temperature, fill_col = "violet", titl
   
 ```
 
-```{r simpleboxplot}
+## A boxplot summarising [temperature]{.purple} in the four [classes]{.purple}
 
-boxplot(outbreak_data, x = class, y = temperature, fill_col = "gold", title = "My boxplot")
+If you're feeling stuck, try this: 
+
+```{r simpleboxplot}
+#| echo: true
+#| output-location: fragment
+#| out.width: "65%"
+#| fig.align: "center"
+
+boxplot(outbreak_data, 
+        x = class, y = temperature,
+        fill_col = "gold", 
+        title = "My boxplot")
 ```
 
 ## What does a boxplot tell us ?
@@ -832,6 +867,19 @@ ggplot(data = symptoms_sick,
   labs(title = "What symptoms do the sick students have ?")
 ```
 
+## Now, what symptoms do the sick students have ?
+
+```{r bar_sick_2, fig.width=6, fig.height=4}
+#| echo: true
+#| output-location: fragment
+barplot(symptoms_sick, 
+        x = symptom, 
+        colour_by = status, 
+        horizontal = TRUE, 
+        title = "What symptoms do the sick students have ?")
+```
+
+
 ## Interpreting our data
 
 ```{r cause_sickness}
@@ -841,9 +889,6 @@ ggplot(data = symptoms_sick,
        aes(y = symptom, fill = status))+
   geom_bar()+
   labs(title = "What symptoms do the sick students have ?")
-
-# simple option
-barplot(mpg, x = manufacturer, colour_by = class, horizontal = TRUE, title = "Horizontal barplot")
 ```
 
 What does this graph tell us?
@@ -919,7 +964,9 @@ source(here::here("setup/map.R"))
 #| output-location: fragment
 #| 
 ggmap(melb_map)+
-   geom_point(data=map_data, aes(x =long, y = lat, colour = sickness), size = 12, shape = 1,)
+   geom_point(data=map_data, 
+              aes(x =long, y = lat, colour = sickness), 
+              size = 12, shape = 1)
 ```
 
 ## This was based on a real life outbreak in Melbourne !
@@ -932,7 +979,7 @@ ggmap(melb_map)+
 
 . . .
 
-🦠 what are pathogens and what are outbreaks
+🦠 What are pathogens and what are outbreaks
 
 . . .
 
@@ -957,6 +1004,8 @@ ggmap(melb_map)+
 ## Do you want to learn more?
 
 [Our online book of today's lesson](https://r-ladiesmelbourne.github.io/17-11-23-ItTakesASpark/)
+
+Scan the QR code on our poster! 
 
 . . .
 
