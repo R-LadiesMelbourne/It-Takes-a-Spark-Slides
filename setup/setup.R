@@ -4,6 +4,13 @@ library(here)
 
 outbreak_data <- readr::read_csv(here("setup/outbreak_data.csv"))
 
+if (!requireNamespace("remotes", quietly = TRUE)) {
+  # If not installed, install the package
+  install.packages("remotes")
+}
+
+remotes::install_github("kzeglinski/rladiesITASpkg")
+library(rladiesmelbITAS)
 
 symptoms <- outbreak_data %>% 
   select(
