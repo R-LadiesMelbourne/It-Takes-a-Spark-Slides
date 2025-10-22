@@ -1,11 +1,1034 @@
 ---
-title: "It-Takes-a-Spark-Slides"
+format:
+  revealjs:
+    logo: presentation/logo.png
+    code-overflow: wrap
+    # fontsize: 0.9em
+    fontsize: 34px
+    code-font-size: 18px
+    incremental: true  
+    css: [presentation/theme/theme.css]
+editor: visual
 ---
 
-This is a Quarto website.
+## Welcome to Become a Disease Detective ! 🔍 {#TitleSlide data-menu-title="Welcome" background-color="#935d94" style="font-size:80px;padding: 5px "}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Organised by
+
+R Ladies Melbourne
+
+## Acknowledgement of Country {.center}
+
+## We are...
+
+Dionne and Kirsty and we are from
+
+[R Ladies Melbourne]{.purple}.
+
+We are here to teach you how to code in [R]{.purple}!
+
+## What is [coding]{.purple-emph} and what is [R]{.purple-emph} ?
+
+. . .
+
+[Coding]{.purple} is writing instructions that a machine or computer can understand to perform a task.
+
+. . .
+
+::: {style="font-size: 1.5em; fig-align: center;layout-nrow=1"}
+![R](presentation/Rlogo.png){width="200"} ![python](presentation/Pythonlogo.png){width="360"} ![java](presentation/JavaLogo.png){width="230"} ![cpp](presentation/cpplogo.png){width="130"}
+:::
+
+. . .
+
+[R]{.purple} is coding language used in statistics, data science and many other disciplines. It is also very powerful tool for visualising data.
+
+. . .
+
+## Why should you [learn R]{.purple} ? {.center}
+
+. . .
+
+⚖️ R is free, open source and everyone can access
+
+. . .
+
+\
+🥳 It can do so many things
+
+. . .
+
+\
+📚 Lots of resources to learn and perform tasks, with a very large user community
+
+. . .
+
+\
+🧑‍🎓 You can get a super cool job ! It's a fantastic skill that is highly sought after in the work force.
+
+## What will you learn today ? {.center}
+
+. . .
+
+\
+
+🗺️ What is an [infectious disease]{.purple}, what is an [outbreak]{.purple} and who are [disease detectives]{.purple}?
+
+. . .
+
+\
+🔍 How can [R]{.purple} be used to investigate outbreaks ?
+
+. . .
+
+\
+[Then YOU! are going to solve an outbreak !]{.purple-emph}
+
+## What are infectious diseases ?
+
+\
+🦠 Infectious diseases are caused by certain microorganisms, such as [bacteria, viruses, parasites or fungi]{.purple-emph}, and will make people (or animals) sick when they are exposed to these microorganisms.
+
+. . .
+
+💭 Most microorganisms don't make us sick, but some do, and these are known as [pathogens]{.purple-emph}.
+
+. . .
+
+🤧 There are lots of different ways that you might get an infectious disease. Some ways include breathing [respiratory droplets]{.purple}, eating [contaminated food or water]{.purple}, insect [bites]{.purple} and many many more !
+
+## When do infectious diseases cause outbreaks ?
+
+📚The [World Health Organisation]{.purple} definition of an [outbreak]{.purple}:
+
+. . .
+
+💡 ["occurrence of disease in excess of normal"]{.purple.emph}
+
+. . .
+
+This might be because of a new pathogen, bringing pathogens to new areas, a mutating pathogen.
+
+. . .
+
+\
+Many infectious diseases now have vaccines that mean outbreaks to these pathogens occur much less frequently (for example: measles, chicken pox, influenza etc.)
+
+## Let's go through some examples of infectious disease outbreaks: viruses ! {data-menu-title="Examples of infectious diseases !" background-color="#935d94" style="font-size:60px;padding: 5px "}
+
+## The COVID-19 pandemic of 2019
+
+::::: columns
+::: {.column width="30%"}
+![](presentation/TIME_March2020.png){width="300"}
+:::
+
+::: {.column width="70%"}
+-   The COVID-19 pandemic was caused by a virus known as [SARS-CoV2]{.purple}. It caused a global [pandemic.]{.purple}
+
+-   A [pandemic]{.purple} is defined as an infectious disease affecting multiple parts of the world simultaneously, i.e. multiple countries are experiencing an [epidemic]{.purple}
+
+-   There are now several vaccines that have helped to reduce the severity of this infection
+:::
+:::::
+
+## Norovirus Outbreak 2023
+
+::::: columns
+::: {.column width="50%"}
+![](presentation/norovirus2023.png){width="500"}
+:::
+
+::: {.column width="50%"}
+-   Norovirus causes [vomitting]{.purple} and [diarrhoea]{.purple} (you might call this gastro)
+
+-   It is extremely stable in the environment and highly contagious
+
+-   [Ingesting]{.purple} norovirus causes disease
+
+-   There is [no vaccine]{.purple} available for norovirus
+:::
+:::::
+
+## What about bacteria! {data-menu-title="What about bacteria" background-color="#935d94" style="font-size:60px;padding: 5px "}
+
+## Buruli ulcer
+
+::::: columns
+::: {.column width="40%"}
+![Image: Institut Pasteur](presentation/buruli.jpg){width="500"}
+:::
+
+::: {.column width="60%"}
+-   Buruli ulcer is caused by a bacteria known as [*Mycobacterium ulcerans*]{.purple}
+
+-   The bacteria is [slow growing and flesh eating]{.purple} and is [endemic]{.purple} to Melbourne and surrounds
+
+-   [Endemic]{.purple} means that there is an ongoing transmission of a pathogen in that area
+
+-   Mode of transmission not entirely understood but likely involves [mosquitoes]{.purple} and [possums]{.purple}
+:::
+:::::
+
+## Who studies outbreaks
+
+-   [Public health departments]{.purple} in the government
+
+    -   How to improve the health of everyone
+
+-   [Academic research]{.purple} at Research Institutes and Universities
+
+    -   Make new discoveries, such as developing new drugs or vaccines
+
+-   [Doctors]{.purple} and [health staff]{.purple}
+
+    -   Keep their patients safe
+
+. . .
+
+And many others too !
+
+## 
+
+An [epidemiologist]{.purple} is someone who studies how...
+
+. . .
+
+\
+
+"to keep the public informed on different public health issues and offer solutions to keep communities safe. They perform studies on outbreaks, their causes, transmission and effect on the public, collating that information into accessible data and health recommendations."
+
+Source: [What is epidemiology and what does an epidemiologist do?](https://online.monash.edu/news/what-is-epidemiology-what-does-an-epidemiologist-do/)
+
+## What do we need to know about outbreaks
+
+::::: columns
+::: {.column width="60%"}
+-   What is the problem ?
+
+-   What is the cause?
+
+-   What can we do to make the situation better ?
+:::
+
+::: {.column width="40%"}
+:::
+:::::
+
+# You are a [disease detective]{.purple-emph} for today and you must help us solve a mysterious outbreak !
+
+## The situation
+
+Unknown illness causes students to [fall ill]{.purple} at local school.
+
+*Local authorities are unsure of the cause of this outbreak, but it appears to be linked to a recent excursion to Melbourne CBD*
+
+## The [excursion]{.purple}
+
+A few days earlier, students at a local school went into Melbourne to see an exhibition at the National Gallery of Victoria.
+
+\
+🚌 At 8am, they took the bus to the NGV.
+
+. . .
+
+🎨 They were in the gallery from 9am - 12pm.
+
+. . .
+
+🍲 They had lunch from 12pm - 2pm at three different locations
+
+. . .
+
+🧑‍🎨 They went back to the gallery for another exhibition between 2 -4 pm
+
+. . .
+
+🏡 At 4pm they were back on the bus to go home
+
+## You are here to investigate...
+
+And you have been given some information including:
+
+::: {.column width="50%"}
+-   Name
+
+-   Class
+
+-   Age
+
+-   Sex
+:::
+
+-   Height
+
+-   Weight
+
+-   Was the student feeling sick
+
+-   What were their symptoms
+
+. . .
+
+[And we are going to do this in R !]{.purple-emph}
+
+## What does RStudio look like?
+
+![](presentation/RStudio.png)
+
+## R can be our [notebook]{.purple}
+
+We can [save]{.purple} important information for later.\
+
+We can use `<-` or `=`\
+
+```{r assign1}
+#| echo: true
+#| output-location: fragment
+#| code-line-numbers: "1|2"
+
+my_name <- "Joy"
+paste("My name is", my_name)
+```
+
+\
+
+. . .
+
+```{r assign2}
+#| echo: true
+#| output-location: fragment
+#| code-line-numbers: "1|2"
+several_names <- c("Joy", "Anger", "Sadness")
+paste("My name is", several_names)
+```
+
+. . .
+
+[Your turn !]{.purple}\
+
+## The same goes for [numbers]{.purple}
+
+```{r assign3}
+#| echo: true
+#| output-location: fragment
+#| code-line-numbers: "1|2|4"
+
+a_number <- 137
+another_number <- 120
+
+a_number * another_number
+```
+
+. . .
+
+```{r assign4}
+#| echo: true
+#| output-location: fragment
+a_number / another_number
+```
+
+. . .
+
+```{r assign5}
+#| echo: true
+#| output-location: fragment
+(2*a_number) + another_number
+```
+
+. . .
+
+Try saving a number or a word to a meaningful name - can you see where it goes?
+
+## Now to solve an outbreak ! {data-menu-title="Welcome" background-color="#935d94" style="font-size:80px;padding: 5px "}
+
+## Where to start?
+
+First we need to load in the data and some tools that are going to help us.
 
 ```{r}
-1 + 1
+#| include: false
+#| echo: false
+
+# outbreak_data <- read.table("https://raw.githubusercontent.com/shaziaruybal/2022-05-04-It-takes-a-spark/master/data/Data.txt",
+#                    header = T,
+#                    stringsAsFactors = T)
+ 
+# outbreak_data <- outbreak_data %>% 
+#   janitor::clean_names() %>% 
+#   select(-dizziness_1) %>% 
+#   pivot_longer(-c(firstname, class, height, weight, age, sex, temperature)) %>% 
+#   mutate(value = ifelse(value=="N", "no", "yes")) %>% 
+#   pivot_wider(names_from = "name", values_from = "value")
+# 
+# 
+# write.csv(outbreak_data, here::here("outbreak_data.csv"),row.names = F)
 ```
+
+```{r script1}
+source(here::here("setup/setup.R"))
+```
+
+One of the great things about R is that there are lots of pre-installed commands that we can access or ones that others help to create and we can access. These are our packages that we access with the `library()` command.
+
+## What is `outbreak_data`?
+
+💡The number one step in data analysis is looking at the data
+
+::: notes
+Potentially highlight analogies here like reading a full recipe and seeing what ingredients you have or need to buy
+:::
+
+. . .
+
+For this, we are going to use our first pre-installed command called `colnames()`.
+
+. . .
+
+```{r colnames}
+#| echo: true
+#| output-location: fragment
+
+colnames(outbreak_data)
+```
+
+. . .
+
+❓Can you find `outbreak_data` in the environment pane?
+
+. . .
+
+🧐 What happens if you click on it there?
+
+## Different kinds of data
+
+In `outbreak_data` we have several kinds of information and it's important to identify what these are !
+
+. . .
+
+-   How would you describe what data we have in `Firstname`?
+
+-   How is this different to `Weight` ?
+
+-   What are some terms we could use to define these ?
+
+## Visualising data
+
+The types of data we have to work with will determine how it is best to visualise !
+
+::::: columns
+::: {.column width="45%"}
+A [scatter plot]{.purple}
+
+```{r scatter plot}
+#this figure is an echo F so code doesn't appear in slides
+mpg %>% 
+  ggplot(aes(x = displ, y = cty)) + 
+  geom_point(size = 3)+
+  labs(y = "", x = "")
+
+```
+
+<!-- ```{r simple_scatter} -->
+
+<!-- scatterplot(mpg, x = displ, y = cty, fill_col = "violet", title = "My scatterplot") -->
+
+<!-- ``` -->
+
+[Notice both the x and the y-axis are things we can count or measure.]{style="font-size:30px;padding: 5px"}
+:::
+
+::: {.column width="45%"}
+A [boxplot]{.purple}
+
+```{r boxplot}
+#this figure is an echo F so code doesn't appear in slides
+
+mpg %>% 
+  ggplot(aes(x = class, y = cty)) + 
+  geom_boxplot()+
+  labs(y = "", x = "")
+
+```
+
+<!-- ```{r simple_boxplot} -->
+
+<!-- boxplot(mpg, x = class, y = cty, fill_col = "gold", title = "My boxplot") -->
+
+<!-- ``` -->
+
+[Notice the y-axis are things we count or measure but the x-axis are specific groups.]{style="font-size:30px;padding: 5px"}
+:::
+:::::
+
+## Let's plot our `outbreak_data`
+
+We will be using a function called `ggplot()`. This is a fantastic tool we can use to make amazing graphs !
+
+Like any graph we need to decide:
+
+1.  What do we want on the x-axis?
+2.  What do we want on the y-axis?
+3.  What kind of graph do we want to make?
+
+. . .
+
+🧑‍🎨other ideas like colour, design, groups ... we'll get to this later !
+
+## How to ask ggplot to plot `outbreak_data`
+
+`aes` is referring to [aesthetics]{.purple}, these are all the things we are going to customise.
+
+. . .
+
+```{r ggplot start, fig.align='center', fig.width=7, fig.height=3}
+#| echo: true
+
+  ggplot(data = outbreak_data,
+         aes(x = class, y = height))
+
+```
+
+. . .
+
+[Next we choose what kind of graph we need]{.purple}
+
+## We can use `geom_point()` or `geom_boxplot()`
+
+. . .
+
+Let's first try `geom_point()`.
+
+We use the `+` sign to add it to our first ggplot command
+
+. . .
+
+```{r scatter1, fig.width=8, fig.height=4, fig.align='center'}
+#| echo: true
+#| output-location: slide
+#| code-line-numbers: "3"
+
+  ggplot(data = outbreak_data,
+         aes(x = class, y = height))+
+  geom_point()
+  
+```
+
+. . .
+
+Where would we put `geom_boxplot()` ?
+
+## Now swap [height]{.purple} for [temperature]{.purple} on the y-axis
+
+. . .
+
+```{r scatter_temp, fig.width=7, fig.height=4, fig.align='center'}
+#| echo: true
+#| output-location: fragment
+#| code-line-numbers: "2"
+
+  ggplot(data = outbreak_data,
+         aes(x = class, y = temperature))+
+  geom_point()
+  
+```
+
+## Let's [customise !]{.purple}
+
+Can you change size, shape and colour...what kinds of plots can you make ?
+
+```{r scatter_custom}
+#| echo: true
+#| output-location: slide
+#| code-line-numbers: "3"
+  ggplot(data = outbreak_data,
+         aes(x = class, y = temperature))+
+  geom_point(size = 4, shape = 5, colour = "blue")
+  
+```
+
+## Let's [customise !]{.purple}
+
+If you're feeling stuck, try this: 
+
+```{r simplescatter}
+#| echo: true
+#| output-location: fragment
+#| out.width: "65%"
+#| fig.align: "center"
+
+scatterplot(outbreak_data, 
+            x = class, y = temperature, 
+            fill_col = "violet", 
+            title = "My scatterplot")
+```
+
+## Can you make a **boxplot** with **class** on the x-axis and **temperature** on the y-axis {data-menu-title="challenge 1" background-color="#935d94" style="font-size:70px;padding: 5px "}
+
+## A boxplot summarising [temperature]{.purple} in the four [classes]{.purple}
+
+```{r boxplot_temp, fig.width=7, fig.height=4, fig.align='center'}
+#| echo: true
+#| output-location: fragment
+#| code-line-numbers: "3"
+
+  ggplot(data = outbreak_data,
+         aes(x = class, y = temperature))+
+  geom_boxplot()
+  
+```
+
+## A boxplot summarising [temperature]{.purple} in the four [classes]{.purple}
+
+If you're feeling stuck, try this: 
+
+```{r simpleboxplot}
+#| echo: true
+#| output-location: fragment
+#| out.width: "65%"
+#| fig.align: "center"
+
+boxplot(outbreak_data, 
+        x = class, y = temperature,
+        fill_col = "gold", 
+        title = "My boxplot")
+```
+
+## What does a boxplot tell us ?
+
+-   Provides us with an informative summary of the data in our groups
+    -   The center line gives the median
+    -   the box below is 25% of the data below the median and the box below is 25% of the data above
+
+. . .
+
+🧐 If we don't know what R is doing, we can always get [help !]{.purple}
+
+. . .
+
+```{r help}
+#| echo: true
+?geom_boxplot()
+```
+
+## How can we use fill to learn more ?
+
+The `fill` can be specified as [aesthetics]{.purple} like the x and y axis.
+
+. . .
+
+Can you specify the `fill` with our `Sickness` information about each student ?
+
+. . .
+
+```{r boxplot_temp_sick, fig.width=8, fig.height=3.5, fig.align='center'}
+#| echo: true
+#| output-location: fragment
+#| code-line-numbers: "2"
+
+  ggplot(data = outbreak_data,
+         aes(x = class, y = temperature, fill = sickness))+
+  geom_boxplot()
+```
+
+## 🧐 What does temperature tell us about how the students were feeling? {data-menu-title="Are the students feeling sick ?" background-color="#935d94" style="font-size:70px;padding: 5px "}
+
+::: notes
+-   Were the temperatures the same for students who were sick and those who weren't
+
+-   Where the sick students in all classes
+
+-   Why do people get a temperature when they get sick?
+:::
+
+## Time to give our plot a [title]{.purple}
+
+```{r add_title, fig.align='center'}
+#| echo: true
+#| output-location: fragment
+  ggplot(data = outbreak_data,
+         aes(x = class, y = temperature, fill = sickness))+
+  geom_boxplot()+
+  labs(title = "Make a title here !")
+```
+
+::: notes
+Make it something informative that describes the plot you've just made and why people would be interested to look at it
+:::
+
+## Let's calculate some summaries
+
+This symbol `%>%` is used to send our data into another command such as `summarise()`
+
+. . .
+
+As the name would suggest, we can generate summaries, such as calculating the [median]{.purple}
+
+. . .
+
+```{r summarise}
+#| echo: true
+#| output-location: fragment
+
+outbreak_data %>% 
+  summarise(median = median(temperature))
+```
+
+<!-- ## We can make [smaller groups]{.purple} -->
+
+<!-- This is like how we put the `Class` groups on the x-axis of our plot from earlier, and saw the [median]{.purple} was different in each class -->
+
+<!-- . . . -->
+
+<!-- Let's try first to calculate the [median]{.purple} `Temperature` of the four `Classes` -->
+
+<!-- . . . -->
+
+<!-- We will use the `group_by()` command to do this as well as the `median()` command -->
+
+<!-- . . . -->
+
+<!-- ```{r } -->
+
+<!-- #| echo: true -->
+
+<!-- #| output-location: fragment -->
+
+<!-- #| code-line-numbers: "2|3" -->
+
+<!-- outbreak_data %>%  -->
+
+<!--   group_by(Class) %>%  -->
+
+<!--   summarise(median = median(Temperature)) -->
+
+<!-- ``` -->
+
+## We can also use `group_by()` with multiple groups
+
+. . .
+
+Just like our boxplot, we want to know the median temperature of the students, grouped by their `Class` and `Sickness` status
+
+. . .
+
+👏Try to do this by adding `group_by(class, sickness)`
+
+. . .
+
+```{r summarise_median}
+#| echo: true
+#| output-location: slide
+
+outbreak_data %>% 
+  group_by(class, sickness) %>% 
+  summarise(median = median(temperature))
+```
+
+. . .
+
+How can we relate this to the boxplot we made earlier ?
+
+## Let's focus on the student's symptoms {.purple}
+
+We are going to use a new type of graph to do this, it's called a [bar plot]{.purple}.
+
+. . .
+
+For this we use `geom_bar()`
+
+```{r barchart1, fig.width=6, fig.height=3, fig.align='center'}
+#| echo: true
+#| output-location: fragment
+#| code-line-numbers: "2|3"
+
+ggplot(data = outbreak_data,
+         aes(x =  sickness))+
+  geom_bar()
+
+```
+
+## How many students were and were not sick ?
+
+As well as the bar plot, we can also use the `count()` command
+
+. . .
+
+```{r count, fig.align='center'}
+#| echo: true
+#| output-location: fragment
+#| code-line-numbers: "2"
+
+outbreak_data %>% 
+  count(sickness)
+```
+
+## What is making the students sick ?
+
+Sickness summarises all of the symptoms. Now it's time to get specific!
+
+. . .
+
+Can you make some other bar plots to see what the students were sick with?
+
+. . .
+
+💡 Remember we can use `colnames(outbreak_data)` to find out what information we have in `outbreak_data` ! . . .
+
+🤩 You might also like to try customising your plot. Remember we can change the colour by specifying `fill =` within the `geom_bar()` command. You might also like to try `aes(fill = )`.
+
+## Shortness of breath
+
+```{r shortness_breath, fig.width=7, fig.height=4, fig.align='center'}
+#| echo: true
+#| output-location: fragment
+
+  ggplot(data = outbreak_data,
+         aes(x = shortness_of_breath))+
+  geom_bar(aes(fill = shortness_of_breath))
+```
+
+## 🧐 What have you found? What symptoms are the most common ? {data-menu-title="Are the students feeling sick ?" background-color="#935d94" style="font-size:70px;padding: 5px "}
+
+## Re-organising our symptoms data
+
+Data can be formatted in different ways.
+
+For example, prioritise having one row per individual with lots of columns
+
+. . .
+
+This is like our `outbreak_data`
+
+. . .
+
+Or sometimes we can change the format and so instead we have a long list of one observation per row.
+
+. . .
+
+This is what we have in our `symptoms` data.
+
+. . .
+
+For the next few plots we are going to use `symptoms` and not `outbreak_data`, however they record exactly the same thing
+
+## Bringing all the symptoms together
+
+```{r symptoms_all, fig.width=7, fig.height=4, fig.align='center'}
+#| echo: true
+#| output-location: fragment
+
+ggplot(data = symptoms,
+       aes(y = symptom, fill = status))+
+  geom_bar()
+```
+
+## Bringing all the symptoms together
+
+::::: columns
+::: {.column width="50%"}
+```{r symptoms_all2, fig.width=7, fig.height=4, fig.align='center'}
+#| echo: false
+#| output-location: fragment
+
+ggplot(data = symptoms,
+       aes(y = symptom, fill = status))+
+  geom_bar()
+```
+:::
+
+::: {.column width="50%"}
+-   This doesn't necessarily help us to decide what is making the students sick because they are not separated as to whether they were [sick]{.purple} or not
+
+-   We really want to separate those that have a [YES]{.purple} in `Sickness`
+:::
+:::::
+
+## We can filter this list to just those that are sick !
+
+This needs the `filter()` command
+
+```{r filter1}
+#| echo: true
+#| output-location: fragment
+symptoms_sick <- symptoms %>% 
+  filter(sickness=="yes")
+```
+
+## Now, what symptoms do the sick students have ?
+
+```{r bar_sick, fig.width=6, fig.height=4}
+#| echo: true
+#| output-location: fragment
+
+ggplot(data = symptoms_sick,
+       aes(y = symptom, fill = status))+
+  geom_bar()+
+  labs(title = "What symptoms do the sick students have ?")
+```
+
+## Now, what symptoms do the sick students have ?
+
+```{r bar_sick_2, fig.width=6, fig.height=4}
+#| echo: true
+#| output-location: fragment
+barplot(symptoms_sick, 
+        x = symptom, 
+        colour_by = status, 
+        horizontal = TRUE, 
+        title = "What symptoms do the sick students have ?")
+```
+
+
+## Interpreting our data
+
+```{r cause_sickness}
+#| include: true
+#| echo: false
+ggplot(data = symptoms_sick,
+       aes(y = symptom, fill = status))+
+  geom_bar()+
+  labs(title = "What symptoms do the sick students have ?")
+```
+
+What does this graph tell us?
+
+-   What are the symptoms of those that are sick?
+
+-   What might be some causes of illness that give these symptoms?
+
+## Likely cause...
+
+# Salmonella {background-color="#935d94"}
+
+## What is [salmonella](https://www.cdc.gov/salmonella/general/index.html)?
+
+-   A bacterial infection
+
+-   Commonly from contaminated food
+
+-   Examples...undercooked chicken, raw egg, insufficient cleaning
+
+-   You can start to feel sick within 6 to 36 hours after eating
+
+## But how did the students get sick ? {data-menu-title="Where did the students get sick" background-color="#935d94" style="font-size:70px;padding: 5px"}
+
+## Challenge: Where did the students get sick?
+
+🎨 At the gallery?
+
+. . .
+
+🚌 On the bus?
+
+. . .
+
+🍲 At lunch?
+
+## WAIT ! We have some more information
+
+🍲 We have just been sent some information about where the student's ate lunch !
+
+. . .
+
+They ate at three different restaurants !
+
+```{r map_data}
+source(here::here("setup/map.R"))
+```
+
+```{r}
+#| echo: false
+#| include: false
+
+# Load the coordinates data of the students
+# map_data = read.delim("https://raw.githubusercontent.com/shaziaruybal/2022-05-04-It-takes-a-spark/master/data/Coordinates_student_data.txt")
+# map_data <- map_data %>% 
+#   mutate(long = case_when(
+#     Longitude==650 ~ 144.9658,
+#     Longitude==1100 ~ 144.9679,map
+#     Longitude==620 ~ 144.9657
+#   )) %>% 
+#   mutate(lat = case_when(
+#     Latitude==950 ~ -37.8189,
+#     Latitude==800~ -37.8197,
+#     Latitude==650 ~ -37.8204,
+#   )) %>% write_csv(here::here("map_data.csv"))
+#the above was to fix the coordinates so that they plotted on out plot
+```
+
+## Plot where the students ate their lunch...
+
+```{r plot_melb_map}
+#| echo: true
+#| output-location: fragment
+#| 
+ggmap(melb_map)+
+   geom_point(data=map_data, 
+              aes(x =long, y = lat, colour = sickness), 
+              size = 12, shape = 1)
+```
+
+## This was based on a real life outbreak in Melbourne !
+
+![](presentation/abc_news.png)
+
+[ABC New 2015](https://www.abc.net.au/news/2015-08-25/raw-egg-mayonnaise-blamed-for-langham-hotel-salmonella-outbreak/6722062)
+
+## Today we have learnt...
+
+. . .
+
+🦠 What are pathogens and what are outbreaks
+
+. . .
+
+🌎 Who are epidemiologists
+
+. . .
+
+🔢 What is R
+
+. . .
+
+📊 How to make plots with ggplot
+
+. . .
+
+📈 How to organise and arrange complex data
+
+. . .
+
+## 🤠 What's something that you've learnt today? {background-color="#935d94" style="font-size:70px;padding: 5px"}
+
+## Do you want to learn more?
+
+[Our online book of today's lesson](https://r-ladiesmelbourne.github.io/17-11-23-ItTakesASpark/)
+
+Scan the QR code on our poster! 
+
+. . .
+
+[RStudio Education for Beginners](https://education.rstudio.com/learn/beginner/)
+
+[R for Data Science](https://r4ds.had.co.nz/)
+
+[The Epidemiologist R Handbook](https://epirhandbook.com/en/)
+
+[R You With Me](https://rladiessydney.org/courses/ryouwithme/)
+
+[R-Graph Gallery](https://r-graph-gallery.com/)
+
+## And thank you to...
+
+. . .
+
+![](presentation/posit.jpg)
+
+. . .
+
+It Takes a Spark !
+
+. . .
+
+and to all of you for helping solve the outbreak !
