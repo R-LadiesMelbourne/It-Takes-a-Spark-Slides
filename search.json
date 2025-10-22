@@ -473,21 +473,21 @@
     "href": "index.html#TitleSlide",
     "title": "It-Takes-a-Spark-Slides",
     "section": "Welcome to Become a Disease Detective ! 🔍",
-    "text": "Welcome to Become a Disease Detective ! 🔍\nOrganised by\nR Ladies Melbourne"
+    "text": "Welcome to Become a Disease Detective ! 🔍\nOrganised by\nR Ladies+ Melbourne"
   },
   {
     "objectID": "index.html#acknowledgement-of-country",
     "href": "index.html#acknowledgement-of-country",
     "title": "It-Takes-a-Spark-Slides",
     "section": "Acknowledgement of Country",
-    "text": "Acknowledgement of Country"
+    "text": "Acknowledgement of Country\n\nWe would like to begin by acknowledging the Wurundjeri people of the Kulin Nation, the Traditional Custodians of the land on which we gather here today. We pay our respects to their Elders past, present, and emerging, and extend that respect to all Aboriginal and Torres Strait Islander peoples. We recognize their continuing connection to land, waters, and culture, and acknowledge that they were the first scientist on this land."
   },
   {
     "objectID": "index.html#we-are",
     "href": "index.html#we-are",
     "title": "It-Takes-a-Spark-Slides",
     "section": "We are…",
-    "text": "We are…\nDionne and Kirsty and we are from\nR Ladies Melbourne.\nWe are here to teach you how to code in R!"
+    "text": "We are…\nDionne and Kirsty and we are from\nR Ladies+ Melbourne.\nWe are here to teach you how to code in R!"
   },
   {
     "objectID": "index.html#what-is-coding-and-what-is-r",
@@ -500,50 +500,50 @@
     "objectID": "index.html#why-should-you-learn-r",
     "href": "index.html#why-should-you-learn-r",
     "title": "It-Takes-a-Spark-Slides",
-    "section": "Why should you learn R ?",
-    "text": "Why should you learn R ?\n\n⚖️ R is free, open source and everyone can access\n\n\n\n🥳 It can do so many things\n\n\n\n📚 Lots of resources to learn and perform tasks, with a very large user community\n\n\n\n🧑‍🎓 You can get a super cool job ! It’s a fantastic skill that is highly sought after in the work force."
+    "section": "Why should you learn R?",
+    "text": "Why should you learn R?\n\n⚖️ R is free, open source and everyone can access\n\n\n\n🥳 It can do so many things\n\n\n\n📚 Lots of resources to learn and perform tasks, with a very large user community\n\n\n\n🧑‍🎓 You can get a super cool job ! It’s a fantastic skill that is highly sought after in the work force"
   },
   {
     "objectID": "index.html#what-will-you-learn-today",
     "href": "index.html#what-will-you-learn-today",
     "title": "It-Takes-a-Spark-Slides",
-    "section": "What will you learn today ?",
-    "text": "What will you learn today ?\n\n\n\n🗺️ What is an infectious disease, what is an outbreak and who are disease detectives?\n\n\n\n🔍 How can R be used to investigate outbreaks ?\n\n\n\nThen YOU! are going to solve an outbreak !"
+    "section": "What will you learn today?",
+    "text": "What will you learn today?\n\n\n\n🗺️ What is an infectious disease, what is an outbreak and who are disease detectives?\n\n\n\n🔍 How can R be used to investigate outbreaks ?\n\n\n\nThen YOU! are going to solve an outbreak !"
   },
   {
     "objectID": "index.html#what-are-infectious-diseases",
     "href": "index.html#what-are-infectious-diseases",
     "title": "It-Takes-a-Spark-Slides",
-    "section": "What are infectious diseases ?",
-    "text": "What are infectious diseases ?\n\n🦠 Infectious diseases are caused by certain microorganisms, such as bacteria, viruses, parasites or fungi, and will make people (or animals) sick when they are exposed to these microorganisms.\n\n💭 Most microorganisms don’t make us sick, but some do, and these are known as pathogens.\n\n\n🤧 There are lots of different ways that you might get an infectious disease. Some ways include breathing respiratory droplets, eating contaminated food or water, insect bites and many many more !"
+    "section": "What are infectious diseases?",
+    "text": "What are infectious diseases?\n\n\n🦠 Infectious diseases are caused by certain microorganisms, such as bacteria, viruses, parasites or fungi, and will make people (or animals) sick when they are exposed to these microorganisms.\n\n\n💭 Most microorganisms don’t make us sick, but some do, and these are known as pathogens.\n\n\n🤧 There are lots of different ways that you might get an infectious disease. Some ways include breathing respiratory droplets, eating contaminated food or water, insect bites and many many more !\n\nPause after reading the headline and see what students have to say"
   },
   {
     "objectID": "index.html#when-do-infectious-diseases-cause-outbreaks",
     "href": "index.html#when-do-infectious-diseases-cause-outbreaks",
     "title": "It-Takes-a-Spark-Slides",
-    "section": "When do infectious diseases cause outbreaks ?",
-    "text": "When do infectious diseases cause outbreaks ?\n📚The World Health Organisation definition of an outbreak:\n\n💡 “occurrence of disease in excess of normal”\n\n\nThis might be because of a new pathogen, bringing pathogens to new areas, a mutating pathogen.\n\n\n\nMany infectious diseases now have vaccines that mean outbreaks to these pathogens occur much less frequently (for example: measles, chicken pox, influenza etc.)"
+    "section": "When do infectious diseases cause outbreaks?",
+    "text": "When do infectious diseases cause outbreaks?\n📚The World Health Organisation definition of an outbreak:\n\n💡 “occurrence of disease in excess of normal”\n\n\nThis might be because of a new pathogen, bringing pathogens to new areas, a mutating pathogen.\n\n\n\nMany infectious diseases now have vaccines that mean outbreaks to these pathogens occur much less frequently (for example: measles, chicken pox, influenza etc.)"
   },
   {
     "objectID": "index.html#lets-go-through-some-examples-of-infectious-disease-outbreaks-viruses",
     "href": "index.html#lets-go-through-some-examples-of-infectious-disease-outbreaks-viruses",
     "title": "It-Takes-a-Spark-Slides",
-    "section": "Let’s go through some examples of infectious disease outbreaks: viruses !",
-    "text": "Let’s go through some examples of infectious disease outbreaks: viruses !"
+    "section": "Let’s go through some examples of infectious disease outbreaks: viruses!",
+    "text": "Let’s go through some examples of infectious disease outbreaks: viruses!"
   },
   {
     "objectID": "index.html#the-covid-19-pandemic-of-2019",
     "href": "index.html#the-covid-19-pandemic-of-2019",
     "title": "It-Takes-a-Spark-Slides",
     "section": "The COVID-19 pandemic of 2019",
-    "text": "The COVID-19 pandemic of 2019\n\n\n\n\n\nThe COVID-19 pandemic was caused by a virus known as SARS-CoV2. It caused a global pandemic.\nA pandemic is defined as an infectious disease affecting multiple parts of the world simultaneously, i.e. multiple countries are experiencing an epidemic\nThere are now several vaccines that have helped to reduce the severity of this infection"
+    "text": "The COVID-19 pandemic of 2019\n\n\n\n\n\nThe COVID-19 pandemic was caused by a virus known as SARS-CoV2. It caused a global pandemic.\nA pandemic is defined as an infectious disease affecting multiple parts of the world simultaneously, i.e. multiple countries are experiencing an epidemic.\nThere are now several vaccines that have helped to reduce the severity of this infection."
   },
   {
     "objectID": "index.html#norovirus-outbreak-2023",
     "href": "index.html#norovirus-outbreak-2023",
     "title": "It-Takes-a-Spark-Slides",
     "section": "Norovirus Outbreak 2023",
-    "text": "Norovirus Outbreak 2023\n\n\n\n\n\nNorovirus causes vomitting and diarrhoea (you might call this gastro)\nIt is extremely stable in the environment and highly contagious\nIngesting norovirus causes disease\nThere is no vaccine available for norovirus"
+    "text": "Norovirus Outbreak 2023\n\n\n\n\n\nNorovirus causes vomitting and diarrhoea (you might call this gastro).\nIt is extremely stable in the environment and highly contagious.\nIngesting norovirus causes disease.\nThere is no vaccine available for norovirus."
   },
   {
     "objectID": "index.html#what-about-bacteria",
@@ -557,7 +557,7 @@
     "href": "index.html#buruli-ulcer",
     "title": "It-Takes-a-Spark-Slides",
     "section": "Buruli ulcer",
-    "text": "Buruli ulcer\n\n\n\n\n\nImage: Institut Pasteur\n\n\n\n\nBuruli ulcer is caused by a bacteria known as Mycobacterium ulcerans\nThe bacteria is slow growing and flesh eating and is endemic to Melbourne and surrounds\nEndemic means that there is an ongoing transmission of a pathogen in that area\nMode of transmission not entirely understood but likely involves mosquitoes and possums"
+    "text": "Buruli ulcer\n\n\n\n\n\nImage: Institut Pasteur\n\n\n\n\nBuruli ulcer is caused by a bacteria known as Mycobacterium ulcerans.\nThe bacteria is slow growing and flesh eating and is endemic to Melbourne and surrounds.\nEndemic means that there is an ongoing transmission of a pathogen in that area.\nMode of transmission not entirely understood but likely involves mosquitoes and possums.\n\n\n\nPause after showing image"
   },
   {
     "objectID": "index.html#who-studies-outbreaks",
@@ -571,14 +571,14 @@
     "href": "index.html#section",
     "title": "It-Takes-a-Spark-Slides",
     "section": "",
-    "text": "An epidemiologist is someone who studies how…\n\n\n\n“to keep the public informed on different public health issues and offer solutions to keep communities safe. They perform studies on outbreaks, their causes, transmission and effect on the public, collating that information into accessible data and health recommendations.”\nSource: What is epidemiology and what does an epidemiologist do?"
+    "text": "An epidemiologist is someone who studies how…\n\n\n\n“to keep the public informed on different public health issues and offer solutions to keep communities safe. They perform studies on outbreaks, their causes, transmission and effect on the public, collating that information into accessible data and health recommendations.”\nSource: What is epidemiology and what does an epidemiologist do?\n\nAsk students if they’ve heard of this before"
   },
   {
     "objectID": "index.html#what-do-we-need-to-know-about-outbreaks",
     "href": "index.html#what-do-we-need-to-know-about-outbreaks",
     "title": "It-Takes-a-Spark-Slides",
-    "section": "What do we need to know about outbreaks",
-    "text": "What do we need to know about outbreaks\n\n\n\nWhat is the problem ?\nWhat is the cause?\nWhat can we do to make the situation better ?"
+    "section": "What do we need to know about outbreaks?",
+    "text": "What do we need to know about outbreaks?\n\nWhat is the problem?\nWhat is the cause?\nWhat can we do to make the situation better?"
   },
   {
     "objectID": "index.html#the-situation",
@@ -592,7 +592,7 @@
     "href": "index.html#the-excursion",
     "title": "It-Takes-a-Spark-Slides",
     "section": "The excursion",
-    "text": "The excursion\nA few days earlier, students at a local school went into Melbourne to see an exhibition at the National Gallery of Victoria.\n\n🚌 At 8am, they took the bus to the NGV.\n\n🎨 They were in the gallery from 9am - 12pm.\n\n\n🍲 They had lunch from 12pm - 2pm at three different locations\n\n\n🧑‍🎨 They went back to the gallery for another exhibition between 2 -4 pm\n\n\n🏡 At 4pm they were back on the bus to go home"
+    "text": "The excursion\nA few days earlier, students at a local school went into Melbourne to see an exhibition at the National Gallery of Victoria.\n\n\n\n🚌 At 8am, they took the bus to the NGV.\n\n\n🎨 They were in the gallery from 9am - 12pm.\n\n\n🍲 They had lunch from 12pm - 2pm at three different locations.\n\n\n🧑‍🎨 They went back to the gallery for another exhibition between 2 -4 pm.\n\n\n🏡 At 4pm they were back on the bus to go home."
   },
   {
     "objectID": "index.html#you-are-here-to-investigate",
@@ -606,7 +606,7 @@
     "href": "index.html#what-does-rstudio-look-like",
     "title": "It-Takes-a-Spark-Slides",
     "section": "What does RStudio look like?",
-    "text": "What does RStudio look like?"
+    "text": "What does RStudio look like?\n\n\n\nNow to our computers\nYou might be wondering what R looks like\nThe top left is our R code file where we’ll be writing our code\nThe top right is our environment pane which shows us R objects\nThe bottom left pane shows us outputs of our code\nAnd bottom right currently shows us the folder that we’re working\n\nNow get everyone to look at their computer and open screen to code with them"
   },
   {
     "objectID": "index.html#r-can-be-our-notebook",
@@ -620,7 +620,7 @@
     "href": "index.html#the-same-goes-for-numbers",
     "title": "It-Takes-a-Spark-Slides",
     "section": "The same goes for numbers",
-    "text": "The same goes for numbers\n\na_number &lt;- 137\nanother_number &lt;- 120\n\na_number * another_number\n\n\n\n[1] 16440\n\n\n\n\na_number / another_number\n\n\n\n[1] 1.141667\n\n\n\n\n\n(2*a_number) + another_number\n\n\n\n[1] 394\n\n\n\n\nTry saving a number or a word to a meaningful name - can you see where it goes?"
+    "text": "The same goes for numbers\n\na_number &lt;- 137\nanother_number &lt;- 120\n\na_number * another_number\n\n\n\n[1] 16440\n\n\n\n\na_number / another_number\n\n\n\n[1] 1.141667\n\n\n\n\n\n(2*a_number) + another_number\n\n\n\n[1] 394\n\n\n\n\nTry saving a number or a word to a meaningful name - can you see where it goes?\n\n\nmeaningful or descriptive word\nno spaces\ncomputer friendly to use underscore if you want to write multiple words\ntry not to spend toooo long on this: max 2 mins"
   },
   {
     "objectID": "index.html#now-to-solve-an-outbreak",
@@ -634,21 +634,21 @@
     "href": "index.html#where-to-start",
     "title": "It-Takes-a-Spark-Slides",
     "section": "Where to start?",
-    "text": "Where to start?\nFirst we need to load in the data and some tools that are going to help us.\nOne of the great things about R is that there are lots of pre-installed commands that we can access or ones that others help to create and we can access. These are our packages that we access with the library() command."
+    "text": "Where to start?\nFirst we need to load in the data and tools to help us.\n\nOne of the great things about R is that there are lots of pre-installed commands that we can access or ones that others help to create and we can access. These are our “packages” that we access with the library() command.\n\n\nWe’ve set up a pre-written files to load this in for us!\n\nsource(here::here(\"setup\", \"setup.R\"))\nsource(here::here(\"setup\", \"map.R\"))\n\n\nShows them what’s on their screen and that we’ve done this for them already Show them how to run these commands by highlighting the ENTIRE code – easier Again try not to spend too long on this"
   },
   {
     "objectID": "index.html#what-is-outbreak_data",
     "href": "index.html#what-is-outbreak_data",
     "title": "It-Takes-a-Spark-Slides",
     "section": "What is outbreak_data?",
-    "text": "What is outbreak_data?\n💡The number one step in data analysis is looking at the data\n\nPotentially highlight analogies here like reading a full recipe and seeing what ingredients you have or need to buy\n\n\nFor this, we are going to use our first pre-installed command called colnames().\n\n\n\ncolnames(outbreak_data)\n\n\n\n [1] \"firstname\"           \"class\"               \"height\"             \n [4] \"weight\"              \"age\"                 \"sex\"                \n [7] \"temperature\"         \"sickness\"            \"shortness_of_breath\"\n[10] \"chills\"              \"palpitation\"         \"bloody_stools\"      \n[13] \"pain_chest\"          \"abdominal_cramps\"    \"dizziness\"          \n[16] \"nausea\"              \"vomiting\"            \"vertigo\"            \n[19] \"cough\"               \"fever\"               \"diarrhea\"           \n[22] \"constipation\"        \"headache\"            \"pain_abdominal\"     \n[25] \"throat_sore\"         \"muscle_pains\"       \n\n\n\n\n❓Can you find outbreak_data in the environment pane?\n\n\n🧐 What happens if you click on it there?"
+    "text": "What is outbreak_data?\n💡The number one step in data analysis is looking at the data\n\nPotentially highlight analogies here like reading a full recipe and seeing what ingredients you have or need to buy\n\n\nFor this, we are going to use our first pre-installed command called colnames().\n\n\n\ncolnames(outbreak_data)\n\n\n\n [1] \"firstname\"           \"class\"               \"height\"             \n [4] \"weight\"              \"age\"                 \"sex\"                \n [7] \"temperature\"         \"sickness\"            \"shortness_of_breath\"\n[10] \"chills\"              \"palpitation\"         \"bloody_stools\"      \n[13] \"pain_chest\"          \"abdominal_cramps\"    \"dizziness\"          \n[16] \"nausea\"              \"vomiting\"            \"vertigo\"            \n[19] \"cough\"               \"fever\"               \"diarrhea\"           \n[22] \"constipation\"        \"headache\"            \"pain_abdominal\"     \n[25] \"throat_sore\"         \"muscle_pains\"       \n\n\n\n\n❓Can you find outbreak_data in the environment pane?\n\n\n🧐 What happens if you click on it there?\n\nAgain try not to spend too long on this"
   },
   {
     "objectID": "index.html#different-kinds-of-data",
     "href": "index.html#different-kinds-of-data",
     "title": "It-Takes-a-Spark-Slides",
     "section": "Different kinds of data",
-    "text": "Different kinds of data\nIn outbreak_data we have several kinds of information and it’s important to identify what these are !\n\n\nHow would you describe what data we have in Firstname?\nHow is this different to Weight ?\nWhat are some terms we could use to define these ?"
+    "text": "Different kinds of data\nIn outbreak_data we have several kinds of information and it’s important to identify what these are !\n\n\nHow would you describe what data we have in Firstname?\nHow is this different to Weight ?\nWhat are some terms we could use to define these ?\n\n\n\nAgain be quick\nAnswers: character, numeric…"
   },
   {
     "objectID": "index.html#visualising-data",
@@ -718,7 +718,7 @@
     "href": "index.html#can-you-make-a-boxplot-with-class-on-the-x-axis-and-temperature-on-the-y-axis",
     "title": "It-Takes-a-Spark-Slides",
     "section": "Can you make a boxplot with class on the x-axis and temperature on the y-axis",
-    "text": "Can you make a boxplot with class on the x-axis and temperature on the y-axis"
+    "text": "Can you make a boxplot with class on the x-axis and temperature on the y-axis\n\nmax. 5 minutes"
   },
   {
     "objectID": "index.html#a-boxplot-summarising-temperature-in-the-four-classes",
@@ -753,7 +753,7 @@
     "href": "index.html#what-does-temperature-tell-us-about-how-the-students-were-feeling",
     "title": "It-Takes-a-Spark-Slides",
     "section": "🧐 What does temperature tell us about how the students were feeling?",
-    "text": "🧐 What does temperature tell us about how the students were feeling?\n\n\nWere the temperatures the same for students who were sick and those who weren’t\nWhere the sick students in all classes\nWhy do people get a temperature when they get sick?"
+    "text": "🧐 What does temperature tell us about how the students were feeling?\n\n\nWere the temperatures the same for students who were sick and those who weren’t\nWhere the sick students in all classes\nWhy do people get a temperature when they get sick?\n\n= Max: 5 minutes"
   },
   {
     "objectID": "index.html#time-to-give-our-plot-a-title",
@@ -802,7 +802,7 @@
     "href": "index.html#what-is-making-the-students-sick",
     "title": "It-Takes-a-Spark-Slides",
     "section": "What is making the students sick ?",
-    "text": "What is making the students sick ?\nSickness summarises all of the symptoms. Now it’s time to get specific!\n\nCan you make some other bar plots to see what the students were sick with?\n\n\n💡 Remember we can use colnames(outbreak_data) to find out what information we have in outbreak_data ! . . .\n🤩 You might also like to try customising your plot. Remember we can change the colour by specifying fill = within the geom_bar() command. You might also like to try aes(fill = )."
+    "text": "What is making the students sick ?\nSickness summarises all of the symptoms. Now it’s time to get specific!\n\nCan you make some other bar plots to see what the students were sick with?\n\n\n💡 Remember we can use colnames(outbreak_data) to find out what information we have in outbreak_data!\n\n\n🤩 You might also like to try customising your plot. Remember we can change the colour by specifying fill = within the geom_bar() command. You might also like to try aes(fill = )."
   },
   {
     "objectID": "index.html#shortness-of-breath",
@@ -816,14 +816,14 @@
     "href": "index.html#what-have-you-found-what-symptoms-are-the-most-common",
     "title": "It-Takes-a-Spark-Slides",
     "section": "🧐 What have you found? What symptoms are the most common ?",
-    "text": "🧐 What have you found? What symptoms are the most common ?"
+    "text": "🧐 What have you found? What symptoms are the most common ?\n\nmax. 5 minutes"
   },
   {
     "objectID": "index.html#re-organising-our-symptoms-data",
     "href": "index.html#re-organising-our-symptoms-data",
     "title": "It-Takes-a-Spark-Slides",
     "section": "Re-organising our symptoms data",
-    "text": "Re-organising our symptoms data\nData can be formatted in different ways.\nFor example, prioritise having one row per individual with lots of columns\n\nThis is like our outbreak_data\n\n\nOr sometimes we can change the format and so instead we have a long list of one observation per row.\n\n\nThis is what we have in our symptoms data.\n\n\nFor the next few plots we are going to use symptoms and not outbreak_data, however they record exactly the same thing"
+    "text": "Re-organising our symptoms data\nData can be formatted in different ways.\nFor example, prioritise having one row per individual with lots of columns.\n\nThis is like our outbreak_data.\n\n\nOr sometimes we can change the format and so instead we have a long list of one observation per row.\n\n\nThis is what we have in our symptoms data.\n\n\nFor the next few plots we are going to use symptoms and not outbreak_data, however they record exactly the same thing."
   },
   {
     "objectID": "index.html#bringing-all-the-symptoms-together",
@@ -872,7 +872,7 @@
     "href": "index.html#likely-cause",
     "title": "It-Takes-a-Spark-Slides",
     "section": "Likely cause…",
-    "text": "Likely cause…"
+    "text": "Likely cause…\n\nask if they have any guesses"
   },
   {
     "objectID": "index.html#what-is-salmonella",
@@ -900,7 +900,7 @@
     "href": "index.html#wait-we-have-some-more-information",
     "title": "It-Takes-a-Spark-Slides",
     "section": "WAIT ! We have some more information",
-    "text": "WAIT ! We have some more information\n🍲 We have just been sent some information about where the student’s ate lunch !\n\nThey ate at three different restaurants !"
+    "text": "WAIT ! We have some more information\n🍲 We have just been sent some information about where the student’s ate lunch !\n\nThey ate at three different restaurants !\n\nmax. 5 minutes"
   },
   {
     "objectID": "index.html#plot-where-the-students-ate-their-lunch",
