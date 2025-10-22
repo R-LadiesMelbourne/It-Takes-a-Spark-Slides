@@ -627,7 +627,7 @@
     "href": "slides.html#the-same-goes-for-numbers",
     "title": "It-Takes-a-Spark-Slides",
     "section": "The same goes for numbers",
-    "text": "The same goes for numbers\n\na_number &lt;- 137\nanother_number &lt;- 120\n\na_number * another_number\n\n\n\n[1] 16440\n\na_number / another_number\n\n[1] 1.141667\n\n(2*a_number) + another_number\n\n[1] 394\n\n\n\n. . .\nTry saving a number or a word to a meaningful name - can you see where it goes?"
+    "text": "The same goes for numbers\n\na_number &lt;- 137\nanother_number &lt;- 120\n\na_number * another_number\n\n\n\n[1] 16440\n\n\n\n\na_number / another_number\n\n\n\n[1] 1.141667\n\n\n\n\n\n(2*a_number) + another_number\n\n\n\n[1] 394\n\n\n\n\nTry saving a number or a word to a meaningful name - can you see where it goes?"
   },
   {
     "objectID": "slides.html#now-to-solve-an-outbreak",
@@ -662,7 +662,7 @@
     "href": "slides.html#visualising-data",
     "title": "It-Takes-a-Spark-Slides",
     "section": "Visualising data",
-    "text": "Visualising data\nThe types of data we have to work with will determine how it is best to visualise !\n\n\nA scatter plot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotice both the x and the y-axis are things we can count or measure.\n\nA boxplot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotice the y-axis are things we count or measure but the x-axis are specific groups."
+    "text": "Visualising data\nThe types of data we have to work with will determine how it is best to visualise !\n\n\nA scatter plot\n\n\n\n\n\n\n\n\n\n\n\n\nNotice both the x and the y-axis are things we can count or measure.\n\nA boxplot\n\n\n\n\n\n\n\n\n\n\n\n\nNotice the y-axis are things we count or measure but the x-axis are specific groups."
   },
   {
     "objectID": "slides.html#lets-plot-our-outbreak_data",
@@ -714,6 +714,13 @@
     "text": "Let’s customise !"
   },
   {
+    "objectID": "slides.html#lets-customise-1",
+    "href": "slides.html#lets-customise-1",
+    "title": "It-Takes-a-Spark-Slides",
+    "section": "Let’s customise !",
+    "text": "Let’s customise !\nIf you’re feeling stuck, try this:\n\nscatterplot(outbreak_data, \n            x = class, y = temperature, \n            fill_col = \"violet\", \n            title = \"My scatterplot\")"
+  },
+  {
     "objectID": "slides.html#can-you-make-a-boxplot-with-class-on-the-x-axis-and-temperature-on-the-y-axis",
     "href": "slides.html#can-you-make-a-boxplot-with-class-on-the-x-axis-and-temperature-on-the-y-axis",
     "title": "It-Takes-a-Spark-Slides",
@@ -726,6 +733,13 @@
     "title": "It-Takes-a-Spark-Slides",
     "section": "A boxplot summarising temperature in the four classes",
     "text": "A boxplot summarising temperature in the four classes\n\n  ggplot(data = outbreak_data,\n         aes(x = class, y = temperature))+\n  geom_boxplot()"
+  },
+  {
+    "objectID": "slides.html#a-boxplot-summarising-temperature-in-the-four-classes-1",
+    "href": "slides.html#a-boxplot-summarising-temperature-in-the-four-classes-1",
+    "title": "It-Takes-a-Spark-Slides",
+    "section": "A boxplot summarising temperature in the four classes",
+    "text": "A boxplot summarising temperature in the four classes\nIf you’re feeling stuck, try this:\n\nboxplot(outbreak_data, \n        x = class, y = temperature,\n        fill_col = \"gold\", \n        title = \"My boxplot\")"
   },
   {
     "objectID": "slides.html#what-does-a-boxplot-tell-us",
@@ -847,11 +861,18 @@
     "text": "Now, what symptoms do the sick students have ?\n\nggplot(data = symptoms_sick,\n       aes(y = symptom, fill = status))+\n  geom_bar()+\n  labs(title = \"What symptoms do the sick students have ?\")"
   },
   {
+    "objectID": "slides.html#now-what-symptoms-do-the-sick-students-have-1",
+    "href": "slides.html#now-what-symptoms-do-the-sick-students-have-1",
+    "title": "It-Takes-a-Spark-Slides",
+    "section": "Now, what symptoms do the sick students have ?",
+    "text": "Now, what symptoms do the sick students have ?\n\nbarplot(symptoms_sick, \n        x = symptom, \n        colour_by = status, \n        horizontal = TRUE, \n        title = \"What symptoms do the sick students have ?\")"
+  },
+  {
     "objectID": "slides.html#interpreting-our-data",
     "href": "slides.html#interpreting-our-data",
     "title": "It-Takes-a-Spark-Slides",
     "section": "Interpreting our data",
-    "text": "Interpreting our data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat does this graph tell us?\n\nWhat are the symptoms of those that are sick?\nWhat might be some causes of illness that give these symptoms?"
+    "text": "Interpreting our data\n\nWhat does this graph tell us?\n\nWhat are the symptoms of those that are sick?\nWhat might be some causes of illness that give these symptoms?"
   },
   {
     "objectID": "slides.html#likely-cause",
@@ -893,7 +914,7 @@
     "href": "slides.html#plot-where-the-students-ate-their-lunch",
     "title": "It-Takes-a-Spark-Slides",
     "section": "Plot where the students ate their lunch…",
-    "text": "Plot where the students ate their lunch…\n\nggmap(melb_map)+\n   geom_point(data=map_data, aes(x =long, y = lat, colour = sickness), size = 12, shape = 1,)"
+    "text": "Plot where the students ate their lunch…\n\nggmap(melb_map)+\n   geom_point(data=map_data, \n              aes(x =long, y = lat, colour = sickness), \n              size = 12, shape = 1)"
   },
   {
     "objectID": "slides.html#this-was-based-on-a-real-life-outbreak-in-melbourne",
@@ -907,7 +928,7 @@
     "href": "slides.html#today-we-have-learnt",
     "title": "It-Takes-a-Spark-Slides",
     "section": "Today we have learnt…",
-    "text": "Today we have learnt…\n\n🦠 what are pathogens and what are outbreaks\n\n\n🌎 Who are epidemiologists\n\n\n🔢 What is R\n\n\n📊 How to make plots with ggplot\n\n\n📈 How to organise and arrange complex data"
+    "text": "Today we have learnt…\n\n🦠 What are pathogens and what are outbreaks\n\n\n🌎 Who are epidemiologists\n\n\n🔢 What is R\n\n\n📊 How to make plots with ggplot\n\n\n📈 How to organise and arrange complex data"
   },
   {
     "objectID": "slides.html#whats-something-that-youve-learnt-today",
@@ -921,7 +942,7 @@
     "href": "slides.html#do-you-want-to-learn-more",
     "title": "It-Takes-a-Spark-Slides",
     "section": "Do you want to learn more?",
-    "text": "Do you want to learn more?\nOur online book of today’s lesson\n\nRStudio Education for Beginners\nR for Data Science\nThe Epidemiologist R Handbook\nR You With Me\nR-Graph Gallery"
+    "text": "Do you want to learn more?\nOur online book of today’s lesson\nScan the QR code on our poster!\n\nRStudio Education for Beginners\nR for Data Science\nThe Epidemiologist R Handbook\nR You With Me\nR-Graph Gallery"
   },
   {
     "objectID": "slides.html#and-thank-you-to",
