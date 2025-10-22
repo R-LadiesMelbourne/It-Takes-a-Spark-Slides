@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="slides_files/libs/clipboard/clipboard.min.js"></script>
-<script src="slides_files/libs/quarto-html/tabby.min.js"></script>
-<script src="slides_files/libs/quarto-html/popper.min.js"></script>
-<script src="slides_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="slides_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="slides_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="slides_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.32">
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
 
-  <title>slides</title>
+  <title>It-Takes-a-Spark-Slides – slides</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="slides_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="slides_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -94,12 +94,12 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="slides_files/libs/revealjs/dist/theme/quarto-dfae513568169d308e2f52afb3ab7dc0.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-e64af06687382f54703433045c2f72d1.css">
   <link rel="stylesheet" href="presentation/theme/theme.css">
-  <link href="slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="slides_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="slides_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
       margin: 0;
@@ -434,8 +434,8 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <p>We can use <code>&lt;-</code> or <code>=</code><br>
 </p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" data-code-line-numbers="1|2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a>my_name <span class="ot">&lt;-</span> <span class="st">"Joy"</span></span>
-<span id="cb1-2"><a href=""></a><span class="fu">paste</span>(<span class="st">"My name is"</span>, my_name)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" data-code-line-numbers="1|2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a>my_name <span class="ot">&lt;-</span> <span class="st">"Joy"</span></span>
+<span id="cb1-2"><a></a><span class="fu">paste</span>(<span class="st">"My name is"</span>, my_name)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell fragment">
 <div class="cell-output cell-output-stdout">
@@ -446,8 +446,8 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 </p>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3" data-code-line-numbers="1|2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a>several_names <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Joy"</span>, <span class="st">"Anger"</span>, <span class="st">"Sadness"</span>)</span>
-<span id="cb3-2"><a href=""></a><span class="fu">paste</span>(<span class="st">"My name is"</span>, several_names)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" data-code-line-numbers="1|2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a>several_names <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Joy"</span>, <span class="st">"Anger"</span>, <span class="st">"Sadness"</span>)</span>
+<span id="cb3-2"><a></a><span class="fu">paste</span>(<span class="st">"My name is"</span>, several_names)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell fragment">
 <div class="cell-output cell-output-stdout">
@@ -463,20 +463,20 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <section id="the-same-goes-for-numbers" class="slide level2">
 <h2>The same goes for <span class="purple">numbers</span></h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5" data-code-line-numbers="1|2|4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a>a_number <span class="ot">&lt;-</span> <span class="dv">137</span></span>
-<span id="cb5-2"><a href=""></a>another_number <span class="ot">&lt;-</span> <span class="dv">120</span></span>
-<span id="cb5-3"><a href=""></a></span>
-<span id="cb5-4"><a href=""></a>a_number <span class="sc">*</span> another_number</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5" data-code-line-numbers="1|2|4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a>a_number <span class="ot">&lt;-</span> <span class="dv">137</span></span>
+<span id="cb5-2"><a></a>another_number <span class="ot">&lt;-</span> <span class="dv">120</span></span>
+<span id="cb5-3"><a></a></span>
+<span id="cb5-4"><a></a>a_number <span class="sc">*</span> another_number</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell fragment">
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 16440</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb7" data-code-line-numbers="1|2|4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href=""></a>a_number <span class="sc">/</span> another_number</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7" data-code-line-numbers="1|2|4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a>a_number <span class="sc">/</span> another_number</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1.141667</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb9" data-code-line-numbers="1|2|4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href=""></a>(<span class="dv">2</span><span class="sc">*</span>a_number) <span class="sc">+</span> another_number</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9" data-code-line-numbers="1|2|4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a>(<span class="dv">2</span><span class="sc">*</span>a_number) <span class="sc">+</span> another_number</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 394</code></pre>
 </div>
@@ -514,7 +514,7 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 </div>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href=""></a><span class="fu">colnames</span>(outbreak_data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a><span class="fu">colnames</span>(outbreak_data)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell fragment">
 <div class="cell-output cell-output-stdout">
@@ -558,7 +558,7 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <div class="cell-output-display">
 <div>
 <figure>
-<p><img data-src="slides_files/figure-revealjs/scatter%20plot-1.png" width="960"></p>
+<p><img data-src="slides_files/figure-revealjs/scatter plot-1.png" width="960"></p>
 </figure>
 </div>
 </div>
@@ -614,12 +614,12 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <p><code>aes</code> is referring to <span class="purple">aesthetics</span>, these are all the things we are going to customise.</p>
 <div class="fragment">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href=""></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
-<span id="cb13-2"><a href=""></a>         <span class="fu">aes</span>(<span class="at">x =</span> class, <span class="at">y =</span> height))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
+<span id="cb13-2"><a></a>         <span class="fu">aes</span>(<span class="at">x =</span> class, <span class="at">y =</span> height))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="slides_files/figure-revealjs/ggplot%20start-1.png" class="quarto-figure quarto-figure-center" width="672"></p>
+<p><img data-src="slides_files/figure-revealjs/ggplot start-1.png" class="quarto-figure quarto-figure-center" width="672"></p>
 </figure>
 </div>
 </div>
@@ -637,9 +637,9 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 </div>
 <div class="fragment">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb14" data-code-line-numbers="3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href=""></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
-<span id="cb14-2"><a href=""></a>         <span class="fu">aes</span>(<span class="at">x =</span> class, <span class="at">y =</span> height))<span class="sc">+</span></span>
-<span id="cb14-3"><a href=""></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14" data-code-line-numbers="3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
+<span id="cb14-2"><a></a>         <span class="fu">aes</span>(<span class="at">x =</span> class, <span class="at">y =</span> height))<span class="sc">+</span></span>
+<span id="cb14-3"><a></a>  <span class="fu">geom_point</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 
 </div>
@@ -659,9 +659,9 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <h2>Now swap <span class="purple">height</span> for <span class="purple">temperature</span> on the y-axis</h2>
 <div class="fragment">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb15" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href=""></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
-<span id="cb15-2"><a href=""></a>         <span class="fu">aes</span>(<span class="at">x =</span> class, <span class="at">y =</span> temperature))<span class="sc">+</span></span>
-<span id="cb15-3"><a href=""></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
+<span id="cb15-2"><a></a>         <span class="fu">aes</span>(<span class="at">x =</span> class, <span class="at">y =</span> temperature))<span class="sc">+</span></span>
+<span id="cb15-3"><a></a>  <span class="fu">geom_point</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell fragment" data-layout-align="center">
 <div class="cell-output-display">
@@ -678,9 +678,9 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <h2>Let’s <span class="purple">customise !</span></h2>
 <p>Can you change size, shape and colour…what kinds of plots can you make ?</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb16" data-code-line-numbers="3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href=""></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
-<span id="cb16-2"><a href=""></a>         <span class="fu">aes</span>(<span class="at">x =</span> class, <span class="at">y =</span> temperature))<span class="sc">+</span></span>
-<span id="cb16-3"><a href=""></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">4</span>, <span class="at">shape =</span> <span class="dv">5</span>, <span class="at">colour =</span> <span class="st">"blue"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16" data-code-line-numbers="3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
+<span id="cb16-2"><a></a>         <span class="fu">aes</span>(<span class="at">x =</span> class, <span class="at">y =</span> temperature))<span class="sc">+</span></span>
+<span id="cb16-3"><a></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">4</span>, <span class="at">shape =</span> <span class="dv">5</span>, <span class="at">colour =</span> <span class="st">"blue"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 
 
@@ -699,9 +699,9 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <section id="a-boxplot-summarising-temperature-in-the-four-classes" class="slide level2">
 <h2>A boxplot summarising <span class="purple">temperature</span> in the four <span class="purple">classes</span></h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb17" data-code-line-numbers="3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href=""></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
-<span id="cb17-2"><a href=""></a>         <span class="fu">aes</span>(<span class="at">x =</span> class, <span class="at">y =</span> temperature))<span class="sc">+</span></span>
-<span id="cb17-3"><a href=""></a>  <span class="fu">geom_boxplot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17" data-code-line-numbers="3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
+<span id="cb17-2"><a></a>         <span class="fu">aes</span>(<span class="at">x =</span> class, <span class="at">y =</span> temperature))<span class="sc">+</span></span>
+<span id="cb17-3"><a></a>  <span class="fu">geom_boxplot</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell fragment" data-layout-align="center">
 <div class="cell-output-display">
@@ -736,7 +736,7 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 </div>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href=""></a>?<span class="fu">geom_boxplot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a></a>?<span class="fu">geom_boxplot</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 </section>
@@ -748,9 +748,9 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 </div>
 <div class="fragment">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb19" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href=""></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
-<span id="cb19-2"><a href=""></a>         <span class="fu">aes</span>(<span class="at">x =</span> class, <span class="at">y =</span> temperature, <span class="at">fill =</span> sickness))<span class="sc">+</span></span>
-<span id="cb19-3"><a href=""></a>  <span class="fu">geom_boxplot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
+<span id="cb19-2"><a></a>         <span class="fu">aes</span>(<span class="at">x =</span> class, <span class="at">y =</span> temperature, <span class="at">fill =</span> sickness))<span class="sc">+</span></span>
+<span id="cb19-3"><a></a>  <span class="fu">geom_boxplot</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell fragment" data-layout-align="center">
 <div class="cell-output-display">
@@ -786,10 +786,10 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <section id="time-to-give-our-plot-a-title" class="slide level2">
 <h2>Time to give our plot a <span class="purple">title</span></h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href=""></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
-<span id="cb20-2"><a href=""></a>         <span class="fu">aes</span>(<span class="at">x =</span> class, <span class="at">y =</span> temperature, <span class="at">fill =</span> sickness))<span class="sc">+</span></span>
-<span id="cb20-3"><a href=""></a>  <span class="fu">geom_boxplot</span>()<span class="sc">+</span></span>
-<span id="cb20-4"><a href=""></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Make a title here !"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
+<span id="cb20-2"><a></a>         <span class="fu">aes</span>(<span class="at">x =</span> class, <span class="at">y =</span> temperature, <span class="at">fill =</span> sickness))<span class="sc">+</span></span>
+<span id="cb20-3"><a></a>  <span class="fu">geom_boxplot</span>()<span class="sc">+</span></span>
+<span id="cb20-4"><a></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Make a title here !"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell fragment" data-layout-align="center">
 <div class="cell-output-display">
@@ -822,8 +822,8 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 </div>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href=""></a>outbreak_data <span class="sc">%&gt;%</span> </span>
-<span id="cb21-2"><a href=""></a>  <span class="fu">summarise</span>(<span class="at">median =</span> <span class="fu">median</span>(temperature))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a></a>outbreak_data <span class="sc">%&gt;%</span> </span>
+<span id="cb21-2"><a></a>  <span class="fu">summarise</span>(<span class="at">median =</span> <span class="fu">median</span>(temperature))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell fragment">
 <div class="cell-output cell-output-stdout">
@@ -860,9 +860,9 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 </div>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href=""></a>outbreak_data <span class="sc">%&gt;%</span> </span>
-<span id="cb23-2"><a href=""></a>  <span class="fu">group_by</span>(class, sickness) <span class="sc">%&gt;%</span> </span>
-<span id="cb23-3"><a href=""></a>  <span class="fu">summarise</span>(<span class="at">median =</span> <span class="fu">median</span>(temperature))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a></a>outbreak_data <span class="sc">%&gt;%</span> </span>
+<span id="cb23-2"><a></a>  <span class="fu">group_by</span>(class, sickness) <span class="sc">%&gt;%</span> </span>
+<span id="cb23-3"><a></a>  <span class="fu">summarise</span>(<span class="at">median =</span> <span class="fu">median</span>(temperature))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 
 </div>
@@ -891,9 +891,9 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <div class="fragment">
 <p>For this we use <code>geom_bar()</code></p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb25" data-code-line-numbers="2|3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href=""></a><span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
-<span id="cb25-2"><a href=""></a>         <span class="fu">aes</span>(<span class="at">x =</span>  sickness))<span class="sc">+</span></span>
-<span id="cb25-3"><a href=""></a>  <span class="fu">geom_bar</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25" data-code-line-numbers="2|3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a></a><span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
+<span id="cb25-2"><a></a>         <span class="fu">aes</span>(<span class="at">x =</span>  sickness))<span class="sc">+</span></span>
+<span id="cb25-3"><a></a>  <span class="fu">geom_bar</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell fragment" data-layout-align="center">
 <div class="cell-output-display">
@@ -911,8 +911,8 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <p>As well as the bar plot, we can also use the <code>count()</code> command</p>
 <div class="fragment">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb26" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href=""></a>outbreak_data <span class="sc">%&gt;%</span> </span>
-<span id="cb26-2"><a href=""></a>  <span class="fu">count</span>(sickness)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a></a>outbreak_data <span class="sc">%&gt;%</span> </span>
+<span id="cb26-2"><a></a>  <span class="fu">count</span>(sickness)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell fragment" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
@@ -939,9 +939,9 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <section id="shortness-of-breath" class="slide level2">
 <h2>Shortness of breath</h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href=""></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
-<span id="cb28-2"><a href=""></a>         <span class="fu">aes</span>(<span class="at">x =</span> shortness_of_breath))<span class="sc">+</span></span>
-<span id="cb28-3"><a href=""></a>  <span class="fu">geom_bar</span>(<span class="fu">aes</span>(<span class="at">fill =</span> shortness_of_breath))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> outbreak_data,</span>
+<span id="cb28-2"><a></a>         <span class="fu">aes</span>(<span class="at">x =</span> shortness_of_breath))<span class="sc">+</span></span>
+<span id="cb28-3"><a></a>  <span class="fu">geom_bar</span>(<span class="fu">aes</span>(<span class="at">fill =</span> shortness_of_breath))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell fragment" data-layout-align="center">
 <div class="cell-output-display">
@@ -976,9 +976,9 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <section id="bringing-all-the-symptoms-together" class="slide level2">
 <h2>Bringing all the symptoms together</h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href=""></a><span class="fu">ggplot</span>(<span class="at">data =</span> symptoms,</span>
-<span id="cb29-2"><a href=""></a>       <span class="fu">aes</span>(<span class="at">y =</span> symptom, <span class="at">fill =</span> status))<span class="sc">+</span></span>
-<span id="cb29-3"><a href=""></a>  <span class="fu">geom_bar</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a></a><span class="fu">ggplot</span>(<span class="at">data =</span> symptoms,</span>
+<span id="cb29-2"><a></a>       <span class="fu">aes</span>(<span class="at">y =</span> symptom, <span class="at">fill =</span> status))<span class="sc">+</span></span>
+<span id="cb29-3"><a></a>  <span class="fu">geom_bar</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell fragment" data-layout-align="center">
 <div class="cell-output-display">
@@ -1014,8 +1014,8 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <h2>We can filter this list to just those that are sick !</h2>
 <p>This needs the <code>filter()</code> command</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href=""></a>symptoms_sick <span class="ot">&lt;-</span> symptoms <span class="sc">%&gt;%</span> </span>
-<span id="cb30-2"><a href=""></a>  <span class="fu">filter</span>(sickness<span class="sc">==</span><span class="st">"yes"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a></a>symptoms_sick <span class="ot">&lt;-</span> symptoms <span class="sc">%&gt;%</span> </span>
+<span id="cb30-2"><a></a>  <span class="fu">filter</span>(sickness<span class="sc">==</span><span class="st">"yes"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell fragment">
 
@@ -1024,10 +1024,10 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <section id="now-what-symptoms-do-the-sick-students-have" class="slide level2">
 <h2>Now, what symptoms do the sick students have ?</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href=""></a><span class="fu">ggplot</span>(<span class="at">data =</span> symptoms_sick,</span>
-<span id="cb31-2"><a href=""></a>       <span class="fu">aes</span>(<span class="at">y =</span> symptom, <span class="at">fill =</span> status))<span class="sc">+</span></span>
-<span id="cb31-3"><a href=""></a>  <span class="fu">geom_bar</span>()<span class="sc">+</span></span>
-<span id="cb31-4"><a href=""></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"What symptoms do the sick students have ?"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a></a><span class="fu">ggplot</span>(<span class="at">data =</span> symptoms_sick,</span>
+<span id="cb31-2"><a></a>       <span class="fu">aes</span>(<span class="at">y =</span> symptom, <span class="at">fill =</span> status))<span class="sc">+</span></span>
+<span id="cb31-3"><a></a>  <span class="fu">geom_bar</span>()<span class="sc">+</span></span>
+<span id="cb31-4"><a></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"What symptoms do the sick students have ?"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell fragment">
 <div class="cell-output-display">
@@ -1103,8 +1103,8 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <section id="plot-where-the-students-ate-their-lunch" class="slide level2">
 <h2>Plot where the students ate their lunch…</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href=""></a><span class="fu">ggmap</span>(melb_map)<span class="sc">+</span></span>
-<span id="cb32-2"><a href=""></a>   <span class="fu">geom_point</span>(<span class="at">data=</span>map_data, <span class="fu">aes</span>(<span class="at">x =</span>long, <span class="at">y =</span> lat, <span class="at">colour =</span> sickness), <span class="at">size =</span> <span class="dv">12</span>, <span class="at">shape =</span> <span class="dv">1</span>,)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a></a><span class="fu">ggmap</span>(melb_map)<span class="sc">+</span></span>
+<span id="cb32-2"><a></a>   <span class="fu">geom_point</span>(<span class="at">data=</span>map_data, <span class="fu">aes</span>(<span class="at">x =</span>long, <span class="at">y =</span> lat, <span class="at">colour =</span> sickness), <span class="at">size =</span> <span class="dv">12</span>, <span class="at">shape =</span> <span class="dv">1</span>,)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell fragment">
 <div class="cell-output-display">
@@ -1164,6 +1164,7 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <div class="fragment">
 <p>and to all of you for helping solve the outbreak !</p>
 
+
 </div>
 </section></section>
     </div>
@@ -1175,19 +1176,19 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 </div></div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="slides_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="site_libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="slides_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="slides_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="slides_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="slides_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="slides_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="slides_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="slides_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="site_libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
@@ -1356,7 +1357,7 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -1468,13 +1469,14 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
@@ -1489,7 +1491,7 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
         }
           var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
           var mailtoRegex = new RegExp(/^mailto:/);
-            var filterRegex = new RegExp('/' + window.location.host + '/');
+            var filterRegex = new RegExp("https:\/\/R-LadiesMelbourne\.github\.io\/It-Takes-a-Spark-Slides\/");
           var isInternal = (href) => {
               return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
           }
